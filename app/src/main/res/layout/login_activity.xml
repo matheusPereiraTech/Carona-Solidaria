@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/conecta">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Usuário"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:hint="User Name"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center"
+            android:textColorHint="#000000"
+            android:background="@drawable/button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senha"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textAlignment="center"
+            android:textColorHint="#000000"
+            android:background="@drawable/button"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Lembrar a minha senha"
+            android:textSize="6pt"
+            android:layout_marginTop="10dp">
+
+        </CheckBox>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esqueci a minha senha"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+    </LinearLayout>
+</ScrollView>
