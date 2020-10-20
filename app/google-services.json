@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "698422140114",
+    "firebase_url": "https://caronasolidaria-59bf0.firebaseio.com",
+    "project_id": "caronasolidaria-59bf0",
+    "storage_bucket": "caronasolidaria-59bf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698422140114:android:c027e42ea1cdbd9e67610b",
+        "android_client_info": {
+          "package_name": "com.example.caronasolidria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698422140114-jbq7os1g071ipc6e2il8570e4ctr7foe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRH0cO6LlpZiVKqo1SoLCjGVy4nYx2FSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698422140114-jbq7os1g071ipc6e2il8570e4ctr7foe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
