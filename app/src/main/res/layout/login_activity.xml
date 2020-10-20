@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Usuário"
+            android:text="@string/usuario"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginTop="20dp" />
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:hint="User Name"
+            android:hint="@string/edit_username"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
@@ -45,7 +45,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Senha"
+            android:text="@string/senha"
             android:textSize="20sp"
             android:layout_gravity="center"
             android:textStyle="bold"
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:hint="Password"
+            android:hint="@string/edit_password"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
@@ -67,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Lembrar a minha senha"
+            android:text="@string/remember_password"
             android:textSize="6pt"
             android:layout_marginTop="10dp">
 
@@ -76,7 +76,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entrar"
+            android:text="@string/open"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="70dp"
             android:layout_marginRight="70dp" />
@@ -84,7 +84,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrar"
+            android:text="@string/register"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="70dp"
             android:layout_marginRight="70dp" />
@@ -92,7 +92,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Esqueci a minha senha"
+            android:text="@string/forgot_password"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="40dp"
             android:textStyle="bold"

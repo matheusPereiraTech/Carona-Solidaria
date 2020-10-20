@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Carona Solidária</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="edit_password">Password</string>
+    <string name="edit_username">User Name</string>
+    <string name="open">Entrar</string>
+    <string name="register">Registrar</string>
+    <string name="remember_password">Lembrar a minha senha</string>
+    <string name="forgot_password">Esqueci a minha senha</string>
+    <string name="first_name">Primeiro Nome</string>
+    <string name="last_name">Sobrenome</string>
+    <string name="email">Email</string>
+    <string name="create_account">Criar Conta</string>
 </resources>

@@ -6,19 +6,24 @@ import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
 import androidx.annotation.ColorInt
+import androidx.annotation.RequiresApi
+import androidx.core.content.ContextCompat
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login_activity)
 
-   //     if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
-    //        window.statusBarColor(R.color.colorPrimary)
-    //    }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            window.setStatusBarColorTo(R.color.colorPrimary)
+        }
     }
-    //fun Window.setStatusBarColor(color: Int){
-   //     this.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
-    //    this.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
-    //    this.statusBarColor = contextCompact.getColor(baseContext,color)
-   // }
+
+    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
+
+    fun Window.setStatusBarColorTo(color: Int) {
+        this.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
+        this.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+        this.statusBarColor = ContextCompat.getColor(baseContext, color)
+    }
 }
